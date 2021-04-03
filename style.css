@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+img{
+  width:450px;
+  height: 315px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  grid-gap: .25rem;
+  justify-items: center;
+  margin: 10px;
+/*  padding: 10px;*/
+ }
+
+ .gallery-column {
+/*  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+  grid-gap: 1rem;
+  justify-items: center;*/
+  margin: 10px auto;
+  max-width: 750px;
+  max-width: 1200px; 
+/*  padding: 10px;*/
+ }
+
+.gallery-img1.defaultimg:hover {
+  opacity: 0;
+  /*background-image: url('question-10.png');*/
+}
+
+.defaultimg {
+	z-index: 2;
+	position: relative;
+}
+
+.hoverimg {
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: 0;
+}
+
+.gallery-img2:hover {
+	opacity: 0;
+/* background-image: url('question-11.png');
+*/}
+
+.gallery-img3:hover {
+	opacity: 0;
+/* background-image: url('question-12.png');
+*/}
+
+.gallery-img4:hover {
+	opacity: 0;
+/*  background-image: url('question-13.png');
+*/}
+
+.gallery-img1 {
+/*  background-image: url('cards-01.png');*/
+  max-width: 100%;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+  padding: 5px;
+}
+
+.gallery-img2 {
+/*  background-image: url('cards-02.png');*/
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+  padding: 5px;
+}
+
+.gallery-img3 {
+/*  background-image: url('cards-03.png');*/
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+  padding: 5px;
+}
+
+.gallery-img4 {
+/*  background-image: url('cards-04.png');*/
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+  padding: 5px;
+}
+
+#form.hide{
+  display:none;
+}
+.center {
+  margin: auto; 
+  width: 50%; 
+  padding: 10px;
+}
+
+input[type="text"], textarea{
+  background: #ffffff;
+  padding: 4px;
+  width: 300px;
+  height: 75px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Cormorant', serif;
+}
+
+textarea {
+  font-family: 'Cormorant', serif;
+  font-size: 14px;	
+}
+
+form {
+	color: #FFFFFF;
+	/*paddinlg: 10px;*/
+/*	width: 200px;*/
+/*	height: 250px;*/
+/*	text-align: center; */
+}
+
+button {
+  width: 50px;
+  height: 20px;
+  font-family: 'Cormorant', serif;
+  border-radius: 5px;
+  border: none;
+}
+
+/*.column {
+  float: left;
+  width: 50%; 
+}*/
+
+/*data-area img {
+  width:250px;
+  height: 175px;
+}*/
+
+
+body {
+  color: #000000;
+  background:#e5e4e4;
+  padding: 18px;
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+}
+
+h1 {
+  color: #000000;
+  background:#e5e4e4;
+  padding: 24px;
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+}
+
+h2 {
+  color: #000000;
+  background:#e5e4e4;
+/*  padding: 36px;*/
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+/*  opacity: 50%;*/
+}
+
+h2:hover{
+  color: #000000;
+  background:#e5e4e4;
+/*  padding: 36px;*/
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+  opacity: 50%;
+}
+
+h3 {
+  color: #000000;
+  background:#e5e4e4;
+  padding: 5px;
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 36px;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+}
+
+h4 {
+  color: #000000;
+  background:#e5e4e4;
+  padding: 5px;
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+}
+
+a {
+ color: #000000;
+  background:#e5e4e4;
+/*  padding: 36px;*/
+  font-family: verdana, helvetica, arial, sans-serif;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+  position: relative;
+  display: inline-block;
+}
+
+
+a:hover{
+ color: #000000;
+  background:#e5e4e4;
+/*  padding: 36px;*/
+  font-family: verdana, helvetica, arial, sans-serif;
+  margin: 0;
+  text-align: center; 
+  font-family: 'Cormorant', serif;
+  text-decoration: none; 
+/*  transition: opacity 0.25s ease-in-out;*/
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+.card1{
+  background-image: url('card1.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display:inline-block;
+  width: calc(25% - 40px); 
+  height: 195px;
+  border:0px solid black;
+  margin: auto;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   padding: 30px;
+   text-align: center;
+   vertical-align:top;
+
+}
+
+.card2{
+  background-image: url('card2.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display:inline-block;
+  width: calc(25% - 40px); 
+  height: 195px;
+  border:0px solid black;
+  margin: auto;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   padding: 30px;
+   text-align: center;
+   vertical-align:top;
+
+}
+
+.card3{
+  background-image: url('card3.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display:inline-block;
+  width: calc(25% - 40px); 
+  height: 195px;
+  border:0px solid black;
+  margin: auto;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   padding: 30px;
+   text-align: center;
+   vertical-align:top;
+
+}
+
+.card4{
+  background-image: url('card4.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display:inline-block;
+  width: calc(25% - 40px); 
+  height: 195px;
+  border:0px solid black;
+  margin: auto;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   padding: 30px;
+   text-align: center;
+   vertical-align:top;
+
+}
+
+@media(max-width:768px){
+    .card1{
+      font-size:14px; }
+    .card2{
+      font-size:14px;
+     }
+    .card3{
+      font-size:14px;
+     }
+    .card4{
+      font-size:14px;
+     }
+}
