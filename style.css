@@ -322,16 +322,36 @@ a:hover, a:visited, a:link, a:active
 
 }
 
+@media(max-width:1024px){
+   .card1{
+     width:calc(35% - 40px);
+     padding: 45px;
+   }
+   .card2{
+     width:calc(35% - 40px);
+     padding: 45px;
+   }
+   .card3{
+     width:calc(35% - 40px);
+     padding: 45px;
+   }
+   .card4{
+     width:calc(35% - 40px);
+     padding: 45px;
+   }
+}
+
 @media(max-width:768px){
     .card1{
-      font-size:14px; }
+      width:calc(85% - 40px); 
+    }
     .card2{
-      font-size:14px;
+      width:calc(85% - 40px);
      }
     .card3{
-      font-size:14px;
+      width:calc(85% - 40px);
      }
     .card4{
-      font-size:14px;
+      width:calc(85% - 40px);
      }
 }
