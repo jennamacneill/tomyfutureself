@@ -321,7 +321,7 @@ a:hover, a:visited, a:link, a:active
    vertical-align:top;
 
 }
-@media(max-width:768px){
+@media(max-width:770px){
     .card1{
       width:calc(85% - 40px); 
     }
