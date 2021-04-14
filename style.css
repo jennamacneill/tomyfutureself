@@ -321,7 +321,20 @@ a:hover, a:visited, a:link, a:active
    vertical-align:top;
 
 }
-
+@media(max-width:768px){
+    .card1{
+      width:calc(85% - 40px); 
+    }
+    .card2{
+      width:calc(85% - 40px);
+     }
+    .card3{
+      width:calc(85% - 40px);
+     }
+    .card4{
+      width:calc(85% - 40px);
+     }
+}
 @media(max-width:1024px){
    .card1{
      width:calc(35% - 40px);
@@ -341,17 +354,4 @@ a:hover, a:visited, a:link, a:active
    }
 }
 
-@media(max-width:768px){
-    .card1{
-      width:calc(85% - 40px); 
-    }
-    .card2{
-      width:calc(85% - 40px);
-     }
-    .card3{
-      width:calc(85% - 40px);
-     }
-    .card4{
-      width:calc(85% - 40px);
-     }
-}
+
